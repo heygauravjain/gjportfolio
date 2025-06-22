@@ -151,10 +151,10 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
       siteName: `${DATA.name} Blog`,
       images: [
         {
-          url: `${DATA.url}${DATA.avatarUrl}`,
+          url: `${DATA.url}/og-default.png`,
           width: 1200,
           height: 630,
-          alt: page.data.title,
+          alt: `${DATA.name} - ${page.data.title}`,
         },
       ],
     },
@@ -162,7 +162,7 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
       card: "summary_large_image",
       title: page.data.title,
       description: page.data.description,
-      images: [`${DATA.url}${DATA.avatarUrl}`],
+      images: [`${DATA.url}/og-default.png`],
     },
     robots: {
       index: true,

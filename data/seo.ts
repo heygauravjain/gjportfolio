@@ -35,10 +35,10 @@ export const SEO_CONFIG = {
     locale: "en_US",
     siteName: `${DATA.name} Portfolio`,
     images: {
-      url: `${DATA.url}${DATA.avatarUrl}`,
+      url: `${DATA.url}/og-default.png`,
       width: 1200,
       height: 630,
-      alt: `${DATA.name} - ${DATA.work[0].title}`,
+      alt: DATA.name,
     },
   },
 

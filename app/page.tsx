@@ -36,10 +36,7 @@ export default function Page() {
             </div>
             <BlurFade delay={ANIMATION_CONFIG.blurFadeDelay}>
               <Avatar className="size-24 sm:size-28 md:size-36 border mx-auto sm:mx-0">
-                <AvatarImage
-                  alt={`${DATA.name} - ${DATA.work[0].title}`}
-                  src={DATA.avatarUrl}
-                />
+                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
             </BlurFade>

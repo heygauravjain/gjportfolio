@@ -41,8 +41,8 @@ const satoshi = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
   title: {
-    default: `${DATA.name} - ${DATA.work[0].title} | Entrepreneur`,
-    template: `%s | ${DATA.name} - ${DATA.work[0].title}`,
+    default: `${DATA.name} | Entrepreneur`,
+    template: `%s | ${DATA.name}`,
   },
   description: DATA.description,
   keywords: [...SEO_CONFIG.keywords],
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     apple: "/favicon.svg",
   },
   openGraph: {
-    title: `${DATA.name} - ${DATA.work[0].title}`,
+    title: DATA.name,
     description: DATA.description,
     url: DATA.url,
     siteName: SEO_CONFIG.openGraph.siteName,
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
   robots: SEO_CONFIG.robots,
   twitter: {
     card: "summary_large_image",
-    title: `${DATA.name} - ${DATA.work[0].title}`,
+    title: DATA.name,
     description: DATA.description,
     creator: `@${DATA.contact.social.X.url.split("/").pop()}`,
     images: [SEO_CONFIG.openGraph.images.url],
