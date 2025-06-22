@@ -46,7 +46,7 @@ import type { ResumeData } from "@/types";
 export const DATA: ResumeData = {
   name: "Deepak Jangra",
   initials: "DJ",
-  url: "https://deepakjangra.com",
+  url: "https://www.deepakjangra.com",
   location: "Gurugram, India",
   locationLink: "https://www.google.com/maps/place/gurugram",
   description:
