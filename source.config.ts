@@ -9,7 +9,7 @@ export const blogs = defineCollections({
   type: "doc",
   dir: "content/blogs",
   schema: frontmatterSchema.extend({
-    author: z.string().default("Deepak Jangra"),
+    author: z.string().default("Gaurav Jain"),
     date: z
       .string()
       .or(z.date())

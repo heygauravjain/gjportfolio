@@ -15,7 +15,7 @@ export const SEO_CONFIG = {
     "Microservices",
     "System Design",
     "Software Engineering",
-    "Deepak Jangra",
+    "Gaurav Jain",
     "Portfolio",
     "Blog",
     "Technical Writing",

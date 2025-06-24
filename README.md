@@ -1,4 +1,4 @@
-# Deepak Jangra - Portfolio
+# Gaurav Jain - Portfolio
 
 Modern portfolio website built with Next.js 15, showcasing professional experience and projects with enterprise-grade performance and SEO.
 
@@ -46,7 +46,7 @@ Modern portfolio website built with Next.js 15, showcasing professional experien
 
 ```bash
 # Clone repository
-git clone https://github.com/heydeepakjangra/deepakjangra.git
+git clone https://github.com/heygauravjain/gjportfolio.git
 cd deepakjangra
 
 # Install dependencies
@@ -146,7 +146,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## Contact
 
-- **Website**: [deepakjangra.com](https://deepakjangra.com)
-- **GitHub**: [@heydeepakjangra](https://github.com/heydeepakjangra)
-- **LinkedIn**: [@heydeepakjangra](https://linkedin.com/in/heydeepakjangra)
-- **Twitter**: [@heydeepakjangra](https://x.com/heydeepakjangra) 
+- **Website**: [gauravjain.dev](https://gauravjain.dev)
+- **GitHub**: [@heygauravjain](https://github.com/heygauravjain)
+- **LinkedIn**: [@heygauravjain](https://linkedin.com/in/heygauravjain)
+- **Twitter**: [@heygauravjain](https://x.com/heygauravjain) 

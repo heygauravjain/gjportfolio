@@ -44,15 +44,15 @@ import { Icons } from "@/components/icons";
 import type { ResumeData } from "@/types";
 
 export const DATA: ResumeData = {
-  name: "Deepak Jangra",
-  initials: "DJ",
-  url: "https://www.deepakjangra.com",
+  name: "Gaurav Jain",
+  initials: "GJ",
+  url: "https://gauravjain.dev/",
   location: "Gurugram, India",
   locationLink: "https://www.google.com/maps/place/gurugram",
   description:
     "Transforming businesses with AI-driven solutions and lightning-fast web experiences. From AI integrations to enterprise-scale platforms, I build what converts and scales 🚀",
   summary:
-    "Since **2016**, I've evolved from a passionate **software engineer** to an **AI-forward entrepreneur**, staying ahead of the tech curve. I specialize in integrating **cutting-edge AI technologies**: from **LLM-powered applications** to **intelligent automation**, into robust **full-stack solutions**. My expertise spans **modern frameworks**, **cloud architectures**, and **AI/ML implementations** that solve real business problems. Currently **building in public** and helping businesses leverage AI to gain **competitive advantages**. Ready to transform your ideas into intelligent, scalable products that users love and businesses profit from.",
+    "Since **2012**, I've evolved from a passionate **software engineer** to an **AI-forward entrepreneur**, staying ahead of the tech curve. I specialize in integrating **cutting-edge AI technologies**: from **LLM-powered applications** to **intelligent automation**, into robust **full-stack solutions**. My expertise spans **modern frameworks**, **cloud architectures**, and **AI/ML implementations** that solve real business problems. Currently **building in public** and helping businesses leverage AI to gain **competitive advantages**. Ready to transform your ideas into intelligent, scalable products that users love and businesses profit from.",
   avatarUrl: "/me.jpg",
   skills: [
     {
@@ -145,33 +145,33 @@ export const DATA: ResumeData = {
     { href: "/blogs", icon: NotebookIcon, label: "Blogs" },
   ],
   contact: {
-    email: "heydeepakjangra@gmail.com",
-    tel: "+91 9992204407",
+    email: "gauravdosi124@gmail.com",
+    tel: "+91 8800100101",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/heydeepakjangra",
+        url: "https://github.com/heygauravjain",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://linkedin.com/in/heydeepakjangra",
+        url: "https://linkedin.com/in/heygauravjain",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://x.com/heydeepakjangra",
+        url: "https://x.com/heygauravjain",
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://youtube.com/@heydeepakjangra",
+        url: "https://youtube.com/@heygauravjain",
         icon: Icons.youtube,
         navbar: true,
       },
@@ -206,70 +206,83 @@ export const DATA: ResumeData = {
       ],
     },
     {
-      company: "Moodys Analytics",
-      badges: [],
-      href: "https://www.moodys.com",
-      location: "Gurugram, India",
-      title: "Software Engineer",
-      logoUrl: "/moodys.jpg",
-      start: "Jun 2019",
-      end: "Aug 2019",
-      highlights: [
-        "Designed and implemented a centralized logging system across multiple microservices using the Elasticsearch, Fluentd, and Kibana (EFK) stack, enabling comprehensive log aggregation, real-time monitoring, and enhanced debugging capabilities.",
-      ],
+      "company": "HCL Technologies",
+      "badges": [],
+      "href": "https://www.hcltech.com",
+      "location": "India",
+      "title": "Software Engineer",
+      "logoUrl": "/hcl.png",
+      "start": "Jan 2018",
+      "end": "Mar 2019",
+      "highlights": [
+        "Prepared Product Requirement Documents (PRD) and System Design Documents (SDD) in collaboration with clients and secured necessary sign-offs.",
+        "Led the architecture design and end-to-end development of scalable solutions.",
+        "Designed and developed microservices using Spring Boot, Eureka, Zuul, and Hystrix for a resilient distributed system.",
+        "Engaged in direct client interactions for requirement gathering and solution discussion.",
+        "Delivered rapid enhancements by handling Change Management Requests (CMRs) and implementing updates efficiently.",
+        "Resolved defects across multiple lifecycle phases, ensuring application stability and performance."
+      ]
     },
     {
-      company: "TBO",
-      href: "https://tbo.com",
-      badges: [],
-      location: "Gurugram, India",
-      title: "Software Engineer",
-      logoUrl: "/tbo.jpg",
-      start: "Mar 2018",
-      end: "Jun 2019",
-      highlights: [
-        "Initiated the adoption of the latest .NET Core framework for developing a trip management software, successfully delivered the organization's first product built with .NET Core.",
-        "Led a team of 3 junior backend developers, ensuring seamless collaboration and efficient development processes.",
-        "Designed and developed a comprehensive dashboard application for monitoring logs, API performance, error alerts, and API key management, enhancing operational efficiency and monitoring capabilities.",
-        "Developed a comprehensive mobile notifications system for Android and iOS, providing real-time updates on flight details such as web check-in, flight delays, gate changes, terminal information, and cancellations.",
-        "Collaborated with cross-functional teams, including mobile app, web app, and third-party API consumers.",
-        "Documented API endpoints using OpenAPI (formerly Swagger) and versioned APIs to ensure backward compatibility, facilitating seamless integration of backend services.",
-      ],  
+      "company": "Accenture Pvt. Ltd",
+      "badges": [],
+      "href": "https://www.accenture.com",
+      "location": "India",
+      "title": "Senior Software Developer",
+      "logoUrl": "/accenture.png",
+      "start": "May 2015",
+      "end": "Dec 2017",
+      "highlights": [
+        "Led deliverables as a Senior Developer, ensuring timely completion of tasks while guiding the team for effective execution.",
+        "Contributed to the coding and development of client/server, object-oriented, and web-based applications.",
+        "Acted as the primary point of contact for clients, capturing requirements and providing tailored solutions to meet expectations.",
+        "Managed and mentored a team, delivering training sessions on various modules and technologies.",
+        "Handled production bug fixes and issues raised by the QA team, ensuring smooth and reliable application performance."
+      ]
     },
     {
-      company: "Aegis Ltd",
-      href: "https://www.startek.com",
-      badges: [],
-      location: "Gurugram, India",
-      title: "Software Engineer",
-      logoUrl: "/aegis.jpg",
-      start: "Sep 2016",
-      end: "Mar 2018",
-      highlights: [
-        "Led the migration of several modules from ASP.NET Web Forms to ASP.NET Web API2 and Angular.",
-        "Took ownership of improving our unit test coverage to meet industry standards.",
-        "Collaborated with a team of 10 members to achieve project milestones and deliver high-quality results.",
-        "Engaged in collaborative backend design discussions and contributed to the documentation process.",
-      ],
+      "company": "VVDN Technologies",
+      "badges": [],
+      "href": "https://www.vvdntech.com",
+      "location": "India",
+      "title": "Senior Software Developer",
+      "logoUrl": "/vvdn.jpg",
+      "start": "Feb 2014",
+      "end": "Mar 2015",
+      "highlights": [
+        "Owned delivery responsibilities, ensured timelines were met, and guided the team to achieve goals efficiently.",
+        "Worked extensively on the coding and development of client/server, object-oriented, and web-based software applications.",
+        "Served as the first point of contact for clients, capturing requirements and delivering appropriate technical solutions.",
+        "Led and mentored a team, providing hands-on training across multiple modules and technologies.",
+        "Resolved production bugs and QA-raised issues to maintain application stability and performance."
+      ]
     },
   ],
   education: [
     {
-      school: "D.C.R.U.S.T Murthal",
-      href: "https://dcrustm.ac.in",
-      degree: "Bachelor's of Technology in Computer Science (B.Tech)",
-      logoUrl: "/dcrust.png",
-      start: "2012",
-      end: "2016",
+      school: "Vyas Institute of Engineering & Technology (Affiliated to RTU, Kota)",
+      href: "https://www.vyasinstitutepnp.org",
+      degree: "Bachelor of Technology in Electronics and Communication (B.Tech)",
+      logoUrl: "/vyas.jpg",
+      start: "2008",
+      end: "2012"
     },
     {
-      school: "Hindu Vidyapeeth Sonipat",
-      href: "https://hvpsonepat.edu.in/",
-      degree: "Higher Secondary (12th)",
-      logoUrl: "/hvp.png",
-      start: "2009",
-      end: "2011",
+      school: "Rajasthan Board of Secondary Education (RBSE)",
+      href: "https://rajeduboard.rajasthan.gov.in/",
+      degree: "Higher Secondary (12th), Science Stream",
+      logoUrl: "/rbse.jpg",
+      start: "2006",
+      end: "2008"
     },
+    {
+      school: "Rajasthan Board of Secondary Education (RBSE)",
+      href: "https://rajeduboard.rajasthan.gov.in/",
+      degree: "Secondary School (10th)",
+      logoUrl: "/rbse.jpg",
+      start: "2004",
+      end: "2006"
+    }
   ],
   projects: [
     {
@@ -295,7 +308,7 @@ export const DATA: ResumeData = {
         },
         {
           type: "Source",
-          href: "https://github.com/heydeepakjangra/cheatsheets",
+          href: "https://github.com/heygauravjain/cheatsheets",
           icon: Icons.github,
         },
       ],
@@ -318,7 +331,7 @@ export const DATA: ResumeData = {
         },
         {
           type: "Source",
-          href: "https://github.com/heydeepakjangra/upi.me",
+          href: "https://github.com/heygauravjain/upi.me",
           icon: Icons.github,
         },
       ],
